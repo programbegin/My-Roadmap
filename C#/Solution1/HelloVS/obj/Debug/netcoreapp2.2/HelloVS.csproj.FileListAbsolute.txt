@@ -1,0 +1,11 @@
+D:\learn\C#\Solution1\HelloVS\bin\Debug\netcoreapp2.2\HelloVS.deps.json
+D:\learn\C#\Solution1\HelloVS\bin\Debug\netcoreapp2.2\HelloVS.runtimeconfig.json
+D:\learn\C#\Solution1\HelloVS\bin\Debug\netcoreapp2.2\HelloVS.runtimeconfig.dev.json
+D:\learn\C#\Solution1\HelloVS\bin\Debug\netcoreapp2.2\HelloVS.dll
+D:\learn\C#\Solution1\HelloVS\bin\Debug\netcoreapp2.2\HelloVS.pdb
+D:\learn\C#\Solution1\HelloVS\obj\Debug\netcoreapp2.2\HelloVS.csprojAssemblyReference.cache
+D:\learn\C#\Solution1\HelloVS\obj\Debug\netcoreapp2.2\HelloVS.csproj.CoreCompileInputs.cache
+D:\learn\C#\Solution1\HelloVS\obj\Debug\netcoreapp2.2\HelloVS.AssemblyInfoInputs.cache
+D:\learn\C#\Solution1\HelloVS\obj\Debug\netcoreapp2.2\HelloVS.AssemblyInfo.cs
+D:\learn\C#\Solution1\HelloVS\obj\Debug\netcoreapp2.2\HelloVS.dll
+D:\learn\C#\Solution1\HelloVS\obj\Debug\netcoreapp2.2\HelloVS.pdb
