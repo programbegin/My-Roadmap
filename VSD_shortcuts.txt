@@ -1,0 +1,34 @@
+VSCODE常用快捷键
+
+//编译调试
+编译		ctrl+shift+B		compile	
+调试		F5			debug
+直接运行		ctrl + F5			run without debugging
+完全越过子函数	F10			step over
+单步调试,进入子函数	F11			step into
+越过子函数余部	shift+F11			step out
+F8		跳转下一个error
+
+//编辑
+代码格式化	shift + alt + F
+上下移动一行	alt + up / down
+向上向下行复制	shift + alt + up / down
+删除一行		ctrl+shift + k
+插入空白行	ctrl + enter 
+多行注释		alt + shift + a
+
+
+折叠代码		ctrl + k + 0-9
+展开代码		ctrl + k + j
+
+选中当前/下一单词	ctrl + d/ double
+剪裁尾随空格	ctrl + shift + x
+
+自动换行		alt + z
+
+//游览
+快速回到顶部 	 ctrl + home
+快速回到底部	 ctrl + end
+移动到上次光标位置	 alt + up/down
+
+

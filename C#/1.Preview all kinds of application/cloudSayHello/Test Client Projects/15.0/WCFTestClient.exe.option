@@ -1,0 +1,5 @@
+SecurityPrompt : Enabled
+RefreshPrompt : Enabled
+RegenerateConfig : Enabled
+ProjectBase:C:\Users\关河梦断\AppData\Local\Temp\Test Client Projects\15.0
+http://localhost:8086/Service1.svc

@@ -1,0 +1,53 @@
+//格式
+package 		包名;
+import 		包名.类名；//java.util.Scanner
+
+public class 类名{
+	public static void main(String[] args){
+		Scanner a=new Scanner(System.in);
+	}
+}
+
+//常用快捷键
+ctrl + alt + L			格式化
+Esc						退出当前窗口并聚焦编辑区
+shift + esc				聚焦编辑区并隐藏工具栏
+F12						聚焦于工具栏最近修改文件
+
+ctrl + alt + T			代码模板
+ctrl + shift + space	在new后快速补全目标类型的对象
+
+ctrl + alt + B			浏览抽象方法的定义，实现，使用方式
+ctrl + w				选中单词及其在源代码中的扩展
+ctrl + alt + V			快速抽提选中对象的类型变量
+
+//注释
+ctrl + /				行注释
+ctrl + shift + /		块注释
+
+//文本操作
+ctrl + D				复制当前行或选中块
+ctrl+shift+bs			定位到上次编辑地点
+ctrl+shift+F7			高亮显示当前文件中一些变量用法，F3上下跳转
+alt + Q					查看当前方法声明，不跳转
+ctrl + E				检索最近打开文件
+ctrl + shift + V		选择并粘贴最近几次剪贴板内容
+alt + 点击表达式		快速计算
+alt + shift + C			快速查询最近操作历史
+
+//排错
+f12						跳转语法错误
+
+//未搞懂
+ctrl = P
+ctrl + space
+
+
+
+
+
+
+
+
+//IDEA常用快捷键
+

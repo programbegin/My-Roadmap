@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<!--可以添加在head区域的元素标签：title，style，meta，link，script，noscript, base-->
+
+<head>
+    <title>菜鸟教程（runoob.com）</title>
+    <!--1 定义浏览器工具栏标题/2 添加收藏时作为收藏夹标题/3 显示在搜索结果页面作标题-->
+
+    <meta charset="utf-8" />
+    <meta name="description" content="免费在线教程">
+    <meta name="keywords" content="HTML, CSS, XML, JavaJcript">
+    <meta name="author" content="runoob">
+
+    <style type="text/css">
+        h1 {
+            color: red;
+        }
+
+        p {
+            color: black;
+            margin-left: 20px;
+        }
+    </style>
+    <!--1 内部样式表：在【style】元素里包含CSS-->
+
+    <!--1 外部样式表：在【link】元素里引用外部CSS文件-->
+    <link rel="stylesheet" type="text/css" href="sec1_styles.css">
+
+    <!--base用来设置默认链接-->
+</head>
+<!--【head标签】用于定义文档头部，是所有头部元素的容器，可以引用script，css，及meta元素-->
+<!--【header】用于定义文档页眉，注意区别-->
+
+<body>
+    <h1>一·标题</h1>
+    <!--标题越大标号越小-->
+    <h2> html教程2#</h2>
+    <h3>html教程3#</h3>
+
+    <!--创建水平线-->
+    <hr />
+
+    <a id="paragraph">二·段落</a>
+    <p>
+        <!--段落是块级元素-->
+        <p>我的一个段落</p>
+        <p>这个段落演示了<br>分行br<br>的效果</p>
+    </p>
+
+
+    <hr />
+
+    三·文本格式化
+    <p>
+        <b>bold加粗</b>
+        <!--换行空元素-->
+        <br />
+        <strong>strong加粗</strong>
+        <br />
+        <big>big放大</big>
+        <br />
+        <i>italic斜体</i>
+        <br />
+        <em>emphise斜体</em>
+        <br />
+        <small>small缩小</small>
+        <br />
+        上标sup<sup>superscript</sup>
+        <br />
+        下标sub<sub>subscript</sub>
+        <br>
+    </p>
+    <pre>
+        pre
+    </pre>
+    <p>
+        <code>code计算机输出</code>
+        <br />
+        <kbd>kbd键盘输出</kbd>
+        <br />
+        <tt>tt打字机文本</tt>
+        <br />
+        <samp>samp代码样本</samp>
+        <br />
+        <var>var变量</var>
+        <br />
+    </p>
+    <br />
+    <address>
+        address地址:<br />
+        Written by <a href="web_regiater@outlook.com">bei</a>.<br />
+        Visit us at:<br />
+        B221<br />
+        Box 564, Disneyland<br />
+        USA
+    </address>
+    <br />
+    abbr缩写，点击<abbr title="etcetera">etc</abbr>查看效果
+    <br />
+    bdo文字倒序(bidirectional override):
+    <bdo dir="rtl">This text displays from right to left</bdo>
+    <br />
+    q引用<q>清明时节雨纷纷，路上行人欲断魂</q>
+    <br />
+    del删除ins插入：My favorite color is <del>blue</del><ins>Red</ins>!
+    <br />
+
+    <hr />
+
+    四·链接
+    <p>
+        <a href="https://www.runoob.com">runoob</a>
+        <br />
+        target属性决定在——blank新标签页打开<a href="https://www.runoob.com" target="_blank" rel="noopener noreferrer">runoob</a>
+        <br />
+        <p>创建图片链接：
+            <a herf="https://www.runoob.com/html/html-tutorial.html"><img border="10" src="simley.gif" alt="HTML教程"
+                    width="32" height="32"></a>
+        </p>
+        <br />
+        <p>无边框的图片链接：
+            <a href="https://www.runoob.com/html/html-tutorial.html"><img src="smiley.gif" alt="HTML教程" width="32"
+                    height="32"></a>
+        </p>
+        <!--id属性可以创建一个书签标记，注意id之前要用【#】号引用-->
+        <a href="#paragraph">查看二·段落</a>
+        <br />
+        <p>跳出框架可以<a href="https://www.runoob.com/" target="_top">点击这里</a></p>
+        <br />
+        <p>这是一个电子邮件链接：
+            <a href="mailto:mygcp00@gmail.com?subject=Hello%20again">发送邮件</a>
+            <!--关键字【mailto】后接邮箱地址，单词空格之间使用【%20】代替-->
+        </p>
+        <p>这是另一个电子邮件链接：
+            <a
+                href="mailto:mygcp00@gmail.com?cc=web_register@outlook.com&bcc=1413285395@qq.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">
+                发送邮件
+            </a>
+            <!--不同参数用【?和&】隔开，空格用【%20】隔开-->
+        </p>
+        <!--使用style制作没有下划线的连接-->
+        <a href="https://www.runoob.com/" style="text-decoration: none;">访问runoob</a>
+    </p>
+
+    <hr />
+
+    五·头部
+    <!--见本html文件首部-->
+    <hr />
+
+    六·CSS
+    <p style="text-align: center;color:darkgreen;font-family: Arial, Helvetica,;font-size: 20px;">
+        一个以内联方式测试CSS的试验段落
+    </p>
+    <hr />
+
+    七·图像
+    <p>
+        <br />
+        <p>
+            logo:
+            <img src="http://www.runoob.com/images/logo.png" width="258" height="39" />
+        </p>
+        <br />
+        <p>
+            Norwegian Mountain Trip:
+            <img border="0" src="D:/learn/HTML/images/pulpit.jpg" alt="Pulpit rock" width="200" height="50">
+        </p>
+        <br/>
+        <p>
+            默认对其的图像(align="bottom"):
+            <img src="D:/learn/HTML/images/emoji.jpg" alt="emoji" align="bottom" width="200" height="50">
+        </p>
+        <p>
+            对齐属性(align="middle"):
+            <img src="D:/learn/HTML/images/emoji.jpg" alt="emoji" align="middle" width="200" height="50">
+        </p>
+        <p>
+            对齐属性(align="top"):
+            <img src="D:/learn/HTML/images/emoji.jpg" alt="emoji" align="top" width="200" height="50">
+        </p>
+        <br/>
+        【注意】align属性已被废弃
+        
+        <!--浮动图片-->
+        <p>
+            <img src="D:/learn/HTML/images/emoji.jpg" alt="emoji" style="float:left" width="200" height="50">图片浮动在段左
+            <img src="D:/learn/HTML/images/emoji.jpg" alt="emoji" style="float: right;" width="200" height="50">图片浮动在段右
+        </p>
+
+        <!--设置图片连接-->
+        <a href="D:/learn/HTML/images/mbr_graph.jpg">MBR分区格式</a>
+    </p>
+    
+    
+</body>
+
+</html>
