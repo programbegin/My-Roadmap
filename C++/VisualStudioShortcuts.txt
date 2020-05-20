@@ -4,8 +4,8 @@ Build:
 	Compile			ctrl + F7
 	RunCodeAnalysisonSolution 	Alt +F11
 Debug:
-	ApplyCodeChanges		alt + F10
+	ApplyCodeChanges	alt + F10
 	autos			ctrl + alt + v,a
-	breakAll			ctrl + alt + Break
+	breakAll		ctrl + alt + Break
 	Breakpoints		ctrl + alt + B
-	CallStack			ctrl + alt + c
+	CallStack		ctrl + alt + c
